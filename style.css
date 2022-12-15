@@ -1,17 +1,62 @@
 html{
+    background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p3/2752778-fond-de-papier-gris-de-luxe-moderne-noir-avec-triangle-texture-ligne-3d-couches-pour-site-web-design-carte-de-visite-vector-illustration-gratuit-vectoriel.jpg);
     
+    color: whitesmoke;
 }
 body{
     font-family: arial;
     
 }
-h2{
-    font-size: 20pt;
-    text-align: center;
-    text-decoration: underline;
-}
+
+
+
 h1{
     text-align: center;
-    border: solid 3px black;
+    border: solid 3px whitesmoke;
     border-radius: 10px;
+    text-align: center;
     }
+ul{
+    font-size: 20px;
+    border: solid 3px whitesmoke;
+    border-radius: ;
+   
+}
+.centrer{
+    width: 30%;
+
+}
+
+
+.wrapper{
+    align-items: center;
+}
+.desc{
+    border: 1px solid whitesmoke;
+   
+    padding: 10pt;
+    font-size: 30px;
+
+}
+.desc-td{
+    border: 1px solid whitesmoke;
+    width: 50%;
+}
+.SFI{
+    float: right;
+    margin-top: -200px;
+  }
+.bouton{
+    font-size: 25pt;
+    text-align: center;
+    border: solid black 1px;
+    width: 26%;
+    padding: 2.5px;
+    background-color: whitesmoke;
+    color: black;
+}
+.bouton:hover{
+    color: red;
+    background-color: blue;
+    text-decoration: none;
+}
