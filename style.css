@@ -108,7 +108,8 @@ p {
 
 .SFI {
     float: right;
-    margin-top: -400px;
+    margin-top: -450px;
+    margin-right: 100px;
 }
 
 
@@ -120,7 +121,7 @@ p {
 }
 
 .ricamarie {
-    height: 200px;
+    height: 300px;
     border: 1px solid whitesmoke;
     border-radius: 35px;
     float: right;
