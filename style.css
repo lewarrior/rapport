@@ -1,62 +1,129 @@
-html{
-    background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p3/2752778-fond-de-papier-gris-de-luxe-moderne-noir-avec-triangle-texture-ligne-3d-couches-pour-site-web-design-carte-de-visite-vector-illustration-gratuit-vectoriel.jpg);
-    
+html {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/235/606/original/abstract-elegant-dark-blue-wave-gold-lines-light-black-background-vector.jpg);
+
     color: whitesmoke;
 }
-body{
+
+body {
     font-family: arial;
-    
+
 }
 
 
 
-h1{
+h1 {
     text-align: center;
     border: solid 3px whitesmoke;
     border-radius: 10px;
     text-align: center;
-    }
-ul{
-    font-size: 20px;
-    border: solid 3px whitesmoke;
-    border-radius: ;
-   
-}
-.centrer{
-    width: 30%;
-
 }
 
-
-.wrapper{
-    align-items: center;
-}
-.desc{
-    border: 1px solid whitesmoke;
-   
-    padding: 10pt;
-    font-size: 30px;
-
-}
-.desc-td{
-    border: 1px solid whitesmoke;
-    width: 50%;
-}
-.SFI{
-    float: right;
-    margin-top: -200px;
-  }
-.bouton{
+.bouton {
     font-size: 25pt;
     text-align: center;
-    border: solid black 1px;
+    border: solid transparent 5px;
     width: 26%;
     padding: 2.5px;
     background-color: whitesmoke;
     color: black;
+    padding: 5px;
 }
-.bouton:hover{
-    color: red;
-    background-color: blue;
-    text-decoration: none;
+
+.bouton:hover {
+    color: whitesmoke;
+    background-color: #03224C;
+    border: solid 5px whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.ricamarie {
+    height: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 35px;
+    float: right;
+    margin-top: -325px;
+    margin-right: -350px;
+}
+
+.explication {
+    font-size: 30px;
+    border: solid 3px black;
+    border-radius: 150px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.titre {
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.avant-apres {
+    border: solid 1px black;
+    border-radius: 5px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 99%;
+}
+
+.titre1 {
+    text-decoration: underline;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+p {
+    font-size: 30px;
+    border: solid 3px black;
+    border-radius: 150px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.titre2 {
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+}
+
+.desc {
+    border: 1px solid whitesmoke;
+    border-radius: 35px;
+    padding: 25px;
+    font-size: 30px;
+
+}
+
+.desc-td {
+    border: 1px solid whitesmoke;
+    width: -100%;
+}
+
+.SFI {
+    float: right;
+    margin-top: -400px;
+}
+
+
+
+.imagepdf {
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.ricamarie {
+    height: 200px;
+    border: 1px solid whitesmoke;
+    border-radius: 35px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 100px;
 }

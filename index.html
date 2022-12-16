@@ -2,68 +2,225 @@
 <html lang="en">
 
 <head>
-    <title>Rapport de stage</title>
+    <title>Rapport de Stage</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.js"></script>
+    <link rel="icon" href="logo sfi1.png">
 </head>
 
 <body>
-
     <h1>Mon Rapport De Stage D'observation du 12 au 16 décembre</h1>
     <table>
         <tr>
-            <td class="bouton"><a href="">présentation de l'entreprise</a></td>
-            <td class="bouton">fiche metier</td>
-            <td class="bouton">mes activité</td>
-            <td class="bouton">Bilan</td>
+            <td class="bouton" id="presentation1">présentation de l'entreprise</td>
+            <td class="bouton" id="fiche_metier1">fiche metier</td>
+            <td class="bouton" id="compte_rendu1">mes activité</td>
+            <td class="bouton" id="bilan1">Bilan</td>
         </tr>
     </table>
-    <h2></h2>
-    <h2></h2>
-    <div>
-        <table class="desc">
-            <tr>
-                <td class="desc-td">
-                    <li>Nom De L'entreprise</li>
-                </td>
-                <td class="desc-td">
-                    <li>SFI</li>
-                </td>
-            </tr>
-            <tr>
-                <td class="desc-td">
-                    <li>Adresse</li>
-                </td>
-                <td class="desc-td">
-                    <li>15 Rue Camille de Rochetaillée, 42000 Saint-Étienne</li>
-                </td>
-            </tr>
-            <tr>
-                <td class="desc-td">
-                    <li>TEL</li>
-                </td>
-                <td class="desc-td">
-                    <li> 04 77 91 13 13</li>
-                </td>
-            </tr>
-            <tr>
-                <td class="desc-td">
-                    <li>E-mail</li>
-                </td>
-                <td class="desc-td">
-                    <li>sfi@sfi.fr</li>
-                </td>
-            </tr>
-            <tr>
-                <td class="desc-td">
-                    <li>Site internet</li>
-                </td>
-                <td class="desc-td">
-                    <li>https://www.sfi.fr/</li>
-                </td>
-            </tr>
-        </table>
-        <img src="logo sfi.png" class="SFI">
-    </div>
+    <section id="presentation">
+
+
+        <div>
+            <table class="desc">
+                <tr>
+                    <td class="desc-td">
+                        <span>Nom De L'entreprise</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>SFI</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>Adresse</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>15 Rue Camille de Rochetaillée, 42000 Saint-Étienne</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>TEL</span>
+                    </td>
+                    <td class="desc-td">
+                        <span> 04 77 91 13 13</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>E-mail</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>sfi@sfi.fr</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>Site internet</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>https://www.sfi.fr/</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>Date de création</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>1995</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>Nom du fondateur</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>Catherine bocquet</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>Activité</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>Création de site web</span>
+                    </td>
+                <tr>
+                    <td class="desc-td">
+                        <span>Type d'entreprise</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>Production de bien</span>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>Taille</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>29 salarié(petite entreprise)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc-td">
+                        <span>les differents metiers</span>
+                    </td>
+                    <td class="desc-td">
+                        <span>Graphiste, developpeur, Service commercial, Directeur technique</span>
+                    </td>
+                </tr>
+            </table>
+            <img src="logo sfi.png" class="SFI">
+            <img src="https://www.ville-laricamarie.fr/wp-content/uploads/2022/03/logo-social.jpg" class="ricamarie">
+        </div>
+        <h2 class="titre"></h2>
+        <object class="imagepdf" type="application/pdf" data="Organigramme-SFI.pdf">
+
+        </object>
+    </section>
+    <section id="fiche_metier">
+        <h2 class="titre">Le developpeur front-end</h2>
+        <p class="explication">
+            Le développeur front-end est le développeur qui organise le site grace au CSS(language informatique)
+            comparer au développeur back qui lui gère la relation site web => serveur par exemple le PHP.
+            Il travaille dans des bureaux et en équipe, un développeur front-end travaille essentiellement avec un
+            graphiste
+            qui lui
+            design le site web ou/et le logo de l'entreprise qui shouaite un site web,il ne peut pas le designer comme
+            il le
+            shouaite car le client donne un cahier de charge, celui-ci est un cahier ou le client écrit ses attentes
+            pour le
+            site web.
+            Par la suite le developpeur front-end traduit le design du site web en code CSS. A SFI les horraires sont 9h
+            -
+            12h30 14h - 17h30
+            Ils travaille sur des ordinateurs avec le logiciel PHP STORM. Aucune aptitude physique particulière n'est
+            requise,
+            selon moi les qualités dont on n'a besoin pour exercer ce metier est d'être passionné et aimé resoudre des
+            problemes.
+            L'avantage selon moi est de s'épanouir si on est passionné et le seul inconveniant c'est d'être frustré si
+            on ne
+            trouve pas les problemes en questions.
+            Il y a une sorte d'évolution au metier, on peut devenir developpeur en chef mais c'est une possibilité car
+            il
+            n'y a pas vraiment d'evolution dans le metier ce n'est pas un système de grade comme la police par exemple.
+            les étude a poursuivre après la 3ème sont (ceci est une possibilité, il éxiste plein de parcour scolaire
+            pour
+            faire ce metier)
+            une second générale et technologique avec une specialité informatique et aussi math mais ce n'est pas
+            obligatoire, ensuite une première générale avec les mêmes options et une terminal général avec les même
+            options
+            on peut ensuite partir sur un but,bts ou un master d'école de programmation ou de site web.
+        </p>
+        <h2 class="titre">Exemple d'un site web avant du CSS et après</h2>
+        <img class="avant-apres" src="https://juliencrego.com/wp-content/uploads/exo-css02-v2-21.png">
+    </section>
+    <section id="compte_rendu">
+        <h2 class="titre1">compte rendu</h2>
+
+
+        <h2 class="titre2">Lundi</h2>
+        <p>Lundi matin de 9h à 11h reunion hebdomadaire avec le directeur technique adjoint et tout les chefs de
+            projet,ils
+            font un bilan sur la semaine précédente, sur les client avec les chefs de projet et ils mettent en place le
+            planning pour le semaine.
+            par la suite le directeur technique ma montré son quotidient par exemple comment il gere le planning de ses
+            employers
+            ,comment il gere les congées de ses employers, quel logiciel il utilise pour communiquer ect... Cela a durée
+            1h30
+            L'après-midi le designer de site web et une developpeur de site vitrine ma montrer les differentes étapes
+            pour
+            crée un site vitrine(site dans lequel il y a aucune interaction on ne peut ni acheter ni se connecter à un
+            compte avec les sites de ce genre il sert juste a présenter quelque chose)
+            . Tout d'abords on a affaire a se qu'on appel un cahier de charge c'est la où le client nous dit ses
+            attentes
+            pour le site puis elle ma présenter quelque sites vitrines quelle a developper.
+            cela a durée 1h30. Le reste de l'après-midi j'ai été avec un developpeur front.(celui-ci est expliquer en
+            detail
+            dans la parti FICHE METIER). </p>
+
+        <h2 class="titre2">Mardi</h2>
+        <p>Début de matinée je suis toujour avec le developpeur front-end jusqu'à 11h30, à 11h30 je suis avec le service
+            commercial il m'explique toute l'entreprise SFI avec un presentation en diaporama, le service commercial est
+            récent chez SFI.
+            C'est Le service commercial qui est le plus souvent en relation avec le client, ils ont des fiches clients
+            cet à
+            dire des entreprises à contacter. Ils utilisent et cherchent differents moyens pour ramener des clients.
+            Le plus important selon eux c'est d'être souvent en relation avec les clients.
+            l'après-midi je suis avec sylvain un developpeur back, c'est lui qui gère la relation site web => serveur et
+            la
+            sécurité du site si il arrive un problème de sécurité dans le site c'est lui qui aura des problèmes c'est
+            pour
+            sa qui dois bien gére des languages comme le java,PHP,python...Pour éviter les erreurs de codes il utilise
+            Symfony
+            ,c'est un logiciel qui permet de corriger les erreurs de PHP et de sécurité. </p>
+        <h2 class="titre2">Jeudi</h2>
+        <p>j'assiste à une nouvelle reunion avec le directeur technique adjoint car beaucoup de clients sont arrivé ces
+            derniers temp et ils doivent s'orgaiser parce que un de leur chef de projet à démissionné celle-ci a duré
+            1h30,
+            par la suite j'ai été avec le graphiste il ma expliqué que c'était lui qui fait le design des site de SFI,
+            les
+            sites des clients et les logos par exemple c'est lui le créateur du logo de SFI, travaille avec Photoshop.
+            Il
+            utilise beaucoup de calque en moyenne il utilise entre 200 et 300 calque par projet. C'est SFI qui finance
+            les
+            licences de logiciel, l'après-midi et tout vendredi je code le site ou vous êtes actuellement. </p>
+    </section>
+    <section id="bilan">
+        <h2 class="titre2">Ce qui m'a plu</h2>
+        <p>Tout m'a plu lors de ce stage d'observation car j'ai trouvé un stage d'observation car j'ai eu un stage dans
+            le domaine qui me passionne cet à dire l'informatique en générale.
+        </p>
+        <h2 class="titre2">Ce qui m'a deplu</h2>
+        <p>
+            Rien ne ma déplu.
+        </p>
+
+    </section>
+
 </body>
+
 
 </html>
